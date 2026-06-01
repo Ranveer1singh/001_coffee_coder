@@ -93,7 +93,7 @@ const Service = () => {
         {serviceData.map((service) => (
           <motion.div
             key={service.id}
-            variants={cardVariants}
+            variants={cardVariants} 
           >
             <img
               src={service.image}
